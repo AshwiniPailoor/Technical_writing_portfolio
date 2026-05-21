@@ -45,5 +45,5 @@ onboarding flows, style guides, and user manuals.
 
 ## Contact
 
-- **LinkedIn:** [linkedin.com/in/yourhandle](https://linkedin.com/in/yourhandle)
-- **Email:** your.email@example.com
+- **LinkedIn:** www.linkedin.com/in/ashwini-pailoor-a3ba03132 
+- **Email:** ashwinipailoor@gmail.com
