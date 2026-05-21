@@ -1,0 +1,39 @@
+site_name: "Ashwini Pailoor — Technical Writing Portfolio"
+site_description: "Documentation samples for software and healthcare/medtech products"
+site_author: "Ashwini Pailoor"
+site_url: https://AshwiniPailoor.github.io
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Writing Samples:
+    - API Reference: docs/api-reference.md
+    - How-To Guide: docs/how-to-guide.md
+    - Release Notes: docs/release-notes.md
+    - Style Guide Snippet: docs/style-guide.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/[your-linkedin]
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
