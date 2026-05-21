@@ -81,3 +81,28 @@ git push origin main
 3. Click the run to watch the live log output.
 
 A successful run looks like this:
+---
+
+## Troubleshooting
+
+**Tests fail on the pipeline but pass locally**  
+Your local environment may differ from the build environment. Check that your 
+`package.json` lists all dependencies explicitly — none should be globally 
+installed only on your local machine.
+
+**"Permission denied" during deployment**  
+Verify that your SSH key is added to the `authorized_keys` file on your server 
+for the deployment user:
+
+````bash
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+````
+
+**Pipeline stuck on "Queued" for more than 5 minutes**  
+DevFlow's free tier has limited concurrency. Check the status page at 
+[status.devflow.io](https://status.devflow.io) for any ongoing incidents.
+
+---
+
+*This is a writing sample created for portfolio purposes. DevFlow is a fictional product.*
