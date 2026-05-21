@@ -1,9 +1,9 @@
-# [Your Name] — Technical Writing Portfolio
+# Ashwini Pailoor — Technical Writing Portfolio
 
 > Documentation samples demonstrating expertise in software developer tools 
 > and healthcare/medtech products.
 
-**[View the portfolio site →](https://[yourusername].github.io)**
+**[View the portfolio site →](https://AshwiniPailoor.github.io)**
 
 ---
 
